@@ -1,0 +1,16 @@
+.ant-layout-content {
+  min-height: calc(100vh - 159px);
+}
+
+.spinner-centered.ant-spin-spinning {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.back-top-img {
+  height: 50px;
+  width: 50px;
+  opacity: 0.8;
+}

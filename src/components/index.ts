@@ -1,0 +1,13 @@
+export { PopularMovies } from './PopularMovies';
+export { LatestFilms } from './LatestFilms';
+export { MovieGallery } from './MovieGallery';
+export { Reviews } from './Reviews';
+export { TopRated } from './TopRated';
+export { TrendingMoviesTime } from './TrendingMoviesTime';
+export { LayoutComponent } from './LayoutComponent';
+export { SimilarMovies } from './SimilarMovies';
+export { NotFound } from './NotFound';
+export { FooterComponent } from './FooterComponent';
+export { Header } from './Header';
+export { MovieDetails } from './MovieDetails';
+export { RecommendedMovies } from './RecommendedMovies';

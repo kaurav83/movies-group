@@ -1,0 +1,78 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": [
+      "off"
+    ],
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": [
+          "function-expression",
+          "arrow-function"
+        ],
+        "unnamedComponents": [
+          "function-expression",
+          "arrow-function"
+        ]
+      }
+    ],
+    "import/prefer-default-export": [
+      "off"
+    ],
+    "newline-before-return": "error",
+    "arrow-parens": [
+      "off"
+    ],
+    "react/jsx-uses-react": [
+      "off"
+    ],
+    "react/jsx-uses-vars": [
+      "error"
+    ],
+    "react/jsx-props-no-spreading": [
+      "warn"
+    ],
+    "no-inline-comments": [
+      "error"
+    ],
+    "react-hooks/exhaustive-deps": [
+      "off"
+    ],
+    "prettier/prettier": [
+      "error",
+      {},
+      {}
+    ],
+    "arrow-body-style": ["off"],
+    "import/no-extraneous-dependencies": ["off"],
+    "import/no-cycle": ["off", { "maxDepth": "∞" }],
+    "consistent-return": ["off"]
+  }
+}
